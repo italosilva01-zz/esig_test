@@ -1,0 +1,137 @@
+//Global
+body {
+    text-align: center;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+section {
+    display: inline;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+$iconColor : #808080;
+$iconHoverColor:#423c3c;
+
+
+// header
+header {
+
+
+
+    margin-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a.navbar-brand {
+        background-color: $iconColor;
+        padding-bottom: 1%;
+        align-items: center;
+        color: white;
+
+        i {
+            display: block;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // user
+    .user {
+        gap: 15%;
+        grid-template-columns: 1fr 1fr;
+
+        //name user
+
+        .text {
+            text-align: right;
+        }
+
+        .image {
+            width: 45px;
+            height: 45px;
+            border: 1px solid black;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    .icon-header {
+        color: $iconColor;
+    }
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    align-self: center;
+    align-items: center;
+
+    i.material-icons {
+        text-align: right;
+    }
+
+    .text {
+
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        white-space: nowrap;
+
+        h5 {
+            font-size: 15px;
+            width: 100%;
+        }
+
+        h6 {
+            font-size: 12px;
+        }
+    }
+}
+
+nav.sidebar {
+    display: block;
+
+    .nav-item {
+        a {
+            display: block;
+            color: $iconColor;
+        }
+
+        a:hover {
+            color: $iconHoverColor;
+        }
+    }
+
+}
+
+main {
+
+    .settings {
+        background-color: #808080;
+        padding: 2px 7px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        border: none;
+        i{
+            font-size: 90%;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+section {
+  display: inline;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+header {
+  margin-right: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a.navbar-brand {
+  background-color: #808080;
+  padding-bottom: 1%;
+  align-items: center;
+  color: white;
+}
+header a.navbar-brand i {
+  display: block;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header .user {
+  gap: 15%;
+  grid-template-columns: 1fr 1fr;
+}
+header .user .text {
+  text-align: right;
+}
+header .user .image {
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .icon-header {
+  color: #808080;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+  align-self: center;
+  align-items: center;
+}
+.user i.material-icons {
+  text-align: right;
+}
+.user .text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  white-space: nowrap;
+}
+.user .text h5 {
+  font-size: 15px;
+  width: 100%;
+}
+.user .text h6 {
+  font-size: 12px;
+}
+
+nav.sidebar {
+  display: block;
+}
+nav.sidebar .nav-item a {
+  display: block;
+  color: #808080;
+}
+nav.sidebar .nav-item a:hover {
+  color: #423c3c;
+}
+
+main .settings {
+  background-color: #808080;
+  padding: 2px 7px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border: none;
+}
+main .settings i {
+  font-size: 90%;
+}
+
+/*# sourceMappingURL=style.css.map */
