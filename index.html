@@ -198,11 +198,11 @@
                     </div>
                     <!--total finish-->
 
-                    <div class="row col-11 bg-danger d-flex justify-content-between m-0 p-0">
+                    <div class="row col-11  d-flex justify-content-between m-0 mt-4 p-0">
                         <!--sales performance-->
-                        <section class="col-8">
+                        <section class="col-8 border border-default pt-4">
                             <!--title-->
-                            <div class="d-flex justify-content-between col-12 pl-0">
+                            <div class="d-flex justify-content-between col-12 pl-2">
                                 <h5><span class="border-bottom pb-3 border-dark">SALES</span> PERFORMANCE</h5>
                                 <button class="settings">
                                     <i class="material-icons">
@@ -211,38 +211,20 @@
                                 </button>
                             </div>
 
-                            <div class=" col-12 bg-primary mt-1">
-                                <!--subtitle-->
-                                <div class="d-flex justify-content-between">
-
-                                    <div class="subtitle mr-3" id="laptops">
-                                        <h6>Laptops</h6>
-                                    </div>
-
-                                    <div class="subtitle mr-2" id="headsets">
-                                        <h6>Headsets</h6>
-                                    </div>
-                                    <div class="subtitle mr-2" id="monitors">
-                                        <h6>Monitors</h6>
-                                    </div>
-                                    <div class="subtitle mr-2" id="phones">
-                                        <h6>Phones</h6>
-                                    </div>
+                            <!--graphic-->
+                            <div class=" col-12 mt-5 p-0">
 
 
-                                </div>
 
-                                <!--graphic-->
-                                <div class="col-md-12 mx-auto">
-
-
+                                <div class="col-md-12 mx-auto p-0">
+                                    <canvas id="myChart" class="m-0"></canvas>
                                 </div>
                             </div>
 
                         </section>
 
                         <!--top categories-->
-                        <section class=" col-3 ">
+                        <section class="col-3 ">
                             <!--title-->
                             <div class="d-flex justify-content-between col-12 p-0">
                                 <h5>TOP CATEGORIES</h5>
@@ -253,6 +235,10 @@
                                 </button>
 
                             </div>
+
+                            <canvas id="top" class=""></canvas>
+
+
 
                         </section>
                     </div>
@@ -416,6 +402,7 @@
 
 
                     </section>
+
                 </div>
 
 
@@ -440,7 +427,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
-    <script src="js/graphic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="teste.js"></script>
 </body>
 
 </html>
