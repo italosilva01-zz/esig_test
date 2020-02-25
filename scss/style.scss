@@ -134,4 +134,25 @@ main {
             font-size: 90%;
         }
     }
+
+    .subtitle h6::before{
+        content: "";
+        border: 1px solid black;
+        
+        padding: 0px 6px;
+        margin-right: 5%;
+        background-color: #808080;
+    }
+    #laptops{
+        border-top: 1px solid black;
+    }
+    #headsets h6::before{
+        background-color: red;
+    }
+    #monitors h6::before{
+        background-color: green;
+    }
+    #phones h6::before{
+        background-color:blue;
+    }
 }

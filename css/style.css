@@ -101,5 +101,24 @@ main .settings {
 main .settings i {
   font-size: 90%;
 }
+main .subtitle h6::before {
+  content: "";
+  border: 1px solid black;
+  padding: 0px 6px;
+  margin-right: 5%;
+  background-color: #808080;
+}
+main #laptops {
+  border-top: 1px solid black;
+}
+main #headsets h6::before {
+  background-color: red;
+}
+main #monitors h6::before {
+  background-color: green;
+}
+main #phones h6::before {
+  background-color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
