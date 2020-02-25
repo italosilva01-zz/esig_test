@@ -44,27 +44,28 @@ var myChart = new Chart(ctx, {
     }
 });
 
-let dados = {
-    datasets: [{
-        data: [10, 20, 30],
-        backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
-    }],
-    labels: ['Vermelho', 'Amarelo', 'Azul']
-};
 
 let context = document.getElementById('top');
 let topCategories = new Chart(context, {
     type: 'doughnut',
     data: {
         labels: [
-            'Red',
-            'Yellow',
-            'Blue'
+            'Electronics',
+            'Furniture',
+            'Toys'
         ],
         datasets: [{
-            data: [10, 20, 30],
+            data: [4, 6, 10],
             backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
         }]
 
+    },
+    options:{
+        legend:{
+            labels:{
+                boxWidth:10,
+                position:'top',
+            }
+        }
     }
 });

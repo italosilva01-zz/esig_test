@@ -1,6 +1,8 @@
 //Global
 body {
     text-align: center;
+    height: 100%;
+    bottom: 0;
 }
 
 h5 {
@@ -73,6 +75,9 @@ header {
 
     .icon-header {
         color: $iconColor;
+    }
+    +div{
+       // height: 1000px;
     }
 }
 
@@ -155,4 +160,8 @@ main {
     #phones h6::before{
         background-color:blue;
     }
+}
+
+footer{
+    bottom: 0;
 }

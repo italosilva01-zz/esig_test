@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  height: 100%;
+  bottom: 0;
 }
 
 h5 {
@@ -54,7 +56,6 @@ header .user .image {
 header .icon-header {
   color: #808080;
 }
-
 .user {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -119,6 +120,10 @@ main #monitors h6::before {
 }
 main #phones h6::before {
   background-color: blue;
+}
+
+footer {
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
