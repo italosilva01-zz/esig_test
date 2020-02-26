@@ -123,7 +123,8 @@ main #phones h6::before {
 }
 
 footer {
-  bottom: 0;
+  text-align: left;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

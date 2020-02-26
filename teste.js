@@ -28,6 +28,7 @@ var myChart = new Chart(ctx, {
 
     },
     options: {
+        
         scales: {
             yAxes: [{
                 ticks: {
@@ -61,6 +62,7 @@ let topCategories = new Chart(context, {
 
     },
     options:{
+        
         legend:{
             labels:{
                 boxWidth:10,
