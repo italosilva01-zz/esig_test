@@ -7,6 +7,7 @@ body {
 
 h5 {
     font-size: 15px;
+    white-space: nowrap;
 }
 
 h6 {
@@ -117,17 +118,18 @@ nav.sidebar {
         a {
             display: block;
             color: $iconColor;
+            text-decoration: none;
         }
 
         a:hover {
             color: $iconHoverColor;
         }
     }
+    
 
 }
 
 main {
-
     .settings {
         background-color: #808080;
         padding: 2px 7px;
@@ -166,3 +168,23 @@ footer{
     text-align: left;
     position: absolute;
 }
+
+.menu-side{
+  
+    z-index: 10110;
+    transition: all 1s;
+}
+.menu-open{
+    
+    h6{
+        display: none;
+    }
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
