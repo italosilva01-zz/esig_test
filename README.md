@@ -1,5 +1,6 @@
 # esig_test
 This repository is about a front-end internship test at ESIG.
+![](https://github.com/italosilva01/esig_test/blob/master/images/Peek%2008-05-2020%2011-53.gif)
 ## Getting Started
 ### Clone the project 
 ```
